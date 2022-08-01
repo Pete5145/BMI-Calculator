@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1 class="title">BMI Calculator</h1>
+    <section class="app">
+        <div class="card">
+            <!-- Input section -->
+            <div class="input-section">
+                <div class="weight">
+                    <label for="weight">WEIGHT</label>
+                    <input type="text" placeholder="kgs" autofocus id="weight">
+                </div>
+                <br>
+                <div class="height">
+                    <label for="height">HEIGHT</label>
+                    <input type="text" placeholder="cms" id="height">
+                </div>
+            </div>
+            <!-- BMI value -->
+            <div class="BMI">
+                <h2 id="BMI-value">25.4 <span>BMI</span></h2>
+            </div>
+            <!-- BMI result -->
+            <div id="display">
+                OVERWEIGHT
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body> 
+</html>
